@@ -1,0 +1,212 @@
+@startuml
+
+title __UTIL's Class Diagram__\n
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.AddressJsonConverter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.AuthenticationRequest {
+            - password : String
+            {static} - serialVersionUID : long
+            - username : String
+            + AuthenticationRequest()
+            + AuthenticationRequest()
+            + getPassword()
+            + getUsername()
+            + setPassword()
+            + setUsername()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.AuthenticationResponse {
+            - email : String
+            - firstName : String
+            - id : int
+            - isPasswordTemp : Boolean
+            - jwt : String
+            - lastName : String
+            - role : EmployeeRoles
+            {static} - serialVersionUID : long
+            + AuthenticationResponse()
+            + getEmail()
+            + getFirstName()
+            + getId()
+            + getIsPasswordTemp()
+            + getJwt()
+            + getLastName()
+            + getRole()
+            {static} + getSerialversionuid()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        interface com.adobe.prj.util.Constants {
+            {static} + DEFAULT_TAX_ZONE : String
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.EmployeeAuthenticationProvider {
+            - employeeService : EmployeeService
+            + authenticate()
+            + supports()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.GenericJsonAttributeConverter {
+            {static} # LOG : Logger
+            - reader : ObjectReader
+            - writer : ObjectWriter
+            + GenericJsonAttributeConverter()
+            + convertToDatabaseColumn()
+            + convertToEntityAttribute()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.GenericJsonAttributeConverter.JsonTypeLike {
+            - entityType : String
+            - entityValue : String
+            + JsonTypeLike()
+            + JsonTypeLike()
+            + getEntityType()
+            + getEntityValue()
+            + readValue()
+            + setEntityType()
+            + setValue()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.JwtRequestFilter {
+            - employeeService : EmployeeService
+            - handlerExceptionResolver : HandlerExceptionResolver
+            - jwtUtil : JwtUtil
+            + JwtRequestFilter()
+            # doFilterInternal()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.JwtUtil {
+            {static} + blacklist : List<String>
+            {static} + valid_tokens : Map<String, String>
+            - SECRET_KEY : String
+            {static} - start_date : Date
+            + extractClaim()
+            + extractCreation()
+            + extractExpiration()
+            + extractUsername()
+            + generateToken()
+            {static} + setStartDate()
+            + validateToken()
+            - createToken()
+            - extractAllClaims()
+            - isTokenExpired()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.UpdatePasswordRequest {
+            - confirm_password : String
+            - new_password : String
+            - old_password : String
+            {static} - serialVersionUID : long
+            + UpdatePasswordRequest()
+            + getConfirm_password()
+            + getNew_password()
+            + getOld_password()
+            + setConfirm_password()
+            + setNew_password()
+            + setOld_password()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.WebSecurityConfig {
+            ~ employeeAuthenticationProvider : EmployeeAuthenticationProvider
+            ~ handlerExceptionResolver : HandlerExceptionResolver
+            - jwtRequestFilter : JwtRequestFilter
+            + WebSecurityConfig()
+            + configure()
+            + configure()
+            # configure()
+        }
+      }
+    }
+  }
+  
+
+  com.adobe.prj.util.AuthenticationRequest .up.|> Serializable
+  com.adobe.prj.util.AuthenticationResponse .up.|> Serializable
+  com.adobe.prj.util.EmployeeAuthenticationProvider .up.|> AuthenticationProvider
+  com.adobe.prj.util.GenericJsonAttributeConverter .up.|> AttributeConverter
+  com.adobe.prj.util.GenericJsonAttributeConverter +-down- com.adobe.prj.util.GenericJsonAttributeConverter.JsonTypeLike
+  com.adobe.prj.util.UpdatePasswordRequest .up.|> Serializable
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

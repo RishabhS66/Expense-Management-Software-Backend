@@ -1,0 +1,985 @@
+@startuml
+
+title __EXPENSE_BACKEND's Class Diagram__\n
+
+  namespace  {
+    namespace mvn.wrapper {
+      class .mvn.wrapper.MavenWrapperDownloader {
+      }
+    }
+  }
+  
+
+  namespace  {
+    class MavenWrapperDownloader {
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      class com.adobe.prj.ExpenseBackendApplication {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      class com.adobe.prj.ExpenseBackendApplication {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      class com.adobe.prj.ExpenseBackendApplicationTests {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      class com.adobe.prj.ExpenseBackendApplicationTests {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      class com.adobe.prj.SwaggerConfig {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      class com.adobe.prj.SwaggerConfig {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.ClientController {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.ClientController {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.ClientControllerTest {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.ClientControllerTest {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.DocumentController {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.DocumentController {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.DocumentControllerTest {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.DocumentControllerTest {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.EmployeeController {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.EmployeeController {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.ExpenseController {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.ExpenseController {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.ExpenseControllerTest {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.ExpenseControllerTest {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.FrontController {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.FrontController {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.FrontControllerTest {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.FrontControllerTest {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.ProjectController {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.ProjectController {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.ProjectControllerTest {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace api {
+        class com.adobe.prj.api.ProjectControllerTest {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace dao {
+        interface com.adobe.prj.dao.ClientDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace dao {
+        interface com.adobe.prj.dao.ClientDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace dao {
+        interface com.adobe.prj.dao.DocumentDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace dao {
+        interface com.adobe.prj.dao.DocumentDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace dao {
+        interface com.adobe.prj.dao.EmployeeDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace dao {
+        interface com.adobe.prj.dao.EmployeeDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace dao {
+        interface com.adobe.prj.dao.ExpenseDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace dao {
+        interface com.adobe.prj.dao.ExpenseDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace dao {
+        interface com.adobe.prj.dao.ProjectDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace dao {
+        interface com.adobe.prj.dao.ProjectDao {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace entity {
+        class com.adobe.prj.entity.Address {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace entity {
+        class com.adobe.prj.entity.Address {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace entity {
+        class com.adobe.prj.entity.Audit {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace entity {
+        class com.adobe.prj.entity.Audit {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace entity {
+        class com.adobe.prj.entity.Client {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace entity {
+        class com.adobe.prj.entity.Client {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace entity {
+        class com.adobe.prj.entity.Document {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace entity {
+        class com.adobe.prj.entity.Document {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace entity {
+        class com.adobe.prj.entity.Employee {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace entity {
+        class com.adobe.prj.entity.Employee {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace entity {
+        enum EmployeeRoles {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace entity {
+        enum EmployeeRoles {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace entity {
+        class com.adobe.prj.entity.Expense {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace entity {
+        class com.adobe.prj.entity.Expense {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace entity {
+        enum ExpenseStatus {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace entity {
+        enum ExpenseStatus {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace entity {
+        class com.adobe.prj.entity.Project {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace entity {
+        class com.adobe.prj.entity.Project {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace entity {
+        enum ProjectStatus {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace entity {
+        enum ProjectStatus {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace exceptions {
+        class com.adobe.prj.exceptions.BadRequestException {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace exceptions {
+        class com.adobe.prj.exceptions.BadRequestException {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace exceptions {
+        class com.adobe.prj.exceptions.GlobalExceptionHandler {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace exceptions {
+        class com.adobe.prj.exceptions.GlobalExceptionHandler {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace exceptions {
+        class com.adobe.prj.exceptions.NotFoundException {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace exceptions {
+        class com.adobe.prj.exceptions.NotFoundException {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace service {
+        class com.adobe.prj.service.ClientService {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace service {
+        class com.adobe.prj.service.ClientService {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace service {
+        class com.adobe.prj.service.DocumentService {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace service {
+        class com.adobe.prj.service.DocumentService {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace service {
+        class com.adobe.prj.service.EmployeeService {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace service {
+        class com.adobe.prj.service.EmployeeService {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace service {
+        class com.adobe.prj.service.ExpenseService {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace service {
+        class com.adobe.prj.service.ExpenseService {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace service {
+        class com.adobe.prj.service.ProjectService {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace service {
+        class com.adobe.prj.service.ProjectService {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.AddressJsonConverter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.AddressJsonConverter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.AuthenticationRequest {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.AuthenticationRequest {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.AuthenticationResponse {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.AuthenticationResponse {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        interface com.adobe.prj.util.Constants {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        interface com.adobe.prj.util.Constants {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.EmployeeAuthenticationProvider {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.EmployeeAuthenticationProvider {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.GenericJsonAttributeConverter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.GenericJsonAttributeConverter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.JwtRequestFilter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.JwtRequestFilter {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.JwtUtil {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.JwtUtil {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.UpdatePasswordRequest {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.UpdatePasswordRequest {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.WebSecurityConfig {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.adobe.prj {
+      namespace util {
+        class com.adobe.prj.util.WebSecurityConfig {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace rc.main.java.com.adobe.prj {
+      class src.main.java.com.adobe.prj.ExpenseBackendApplication {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace rc.test.java.com.adobe.prj {
+      class src.test.java.com.adobe.prj.ExpenseBackendApplicationTests {
+      }
+    }
+  }
+  
+
+  com.adobe.prj.entity.Address .up.|> java.io.Serializable
+  com.adobe.prj.entity.Address .up.|> Serializable
+  com.adobe.prj.entity.Employee o-- com.adobe.prj.entity.Employee : manager
+  com.adobe.prj.util.AuthenticationRequest .up.|> Serializable
+  com.adobe.prj.util.AuthenticationRequest .up.|> java.io.Serializable
+  com.adobe.prj.util.AuthenticationResponse .up.|> java.io.Serializable
+  com.adobe.prj.util.AuthenticationResponse .up.|> Serializable
+  com.adobe.prj.util.EmployeeAuthenticationProvider .up.|> org.springframework.security.authentication.AuthenticationProvider
+  com.adobe.prj.util.EmployeeAuthenticationProvider .up.|> AuthenticationProvider
+  com.adobe.prj.util.GenericJsonAttributeConverter .up.|> AttributeConverter
+  com.adobe.prj.util.GenericJsonAttributeConverter .up.|> javax.persistence.AttributeConverter<X,java.lang.String>
+  com.adobe.prj.util.UpdatePasswordRequest .up.|> Serializable
+  com.adobe.prj.util.UpdatePasswordRequest .up.|> java.io.Serializable
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
