@@ -26,7 +26,7 @@ public class SwaggerConfig {
 	private ApiInfo apiInfo() {
 		return new ApiInfo("Expense Management System",
 				"An expesne management system used to log expense for a project and get it approved", "api v1",
-				"Terms of service", new Contact("Puneet Mangla, Bhanu Ailani, Abhishek Shaw", "", ""), "License of API",
+				"Terms of service", new Contact("Rishabh Srivastava, Puneet Mangla, Bhanu Ailani, Abhishek Shaw", "", ""), "License of API",
 				"API license URL", Collections.emptyList());
 	}
 }
