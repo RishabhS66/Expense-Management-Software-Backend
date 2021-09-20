@@ -1,0 +1,12 @@
+To RUN postgres (MacOS):
+
+-> export PATH="/Applications/Postgres.app/Contents/Versions/13/bin:$PATH" 
+[HAVE TO DO THIS EVERYTIME NEW TERMINAL IS OPEN]
+
+Else, just do this once:
+-> sudo mkdir -p /etc/paths.d &&
+echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
+
+Then,
+-> heroku pg:psql --app expense-backend-rs 
+[--app APP_NAME_IN_HEROKU]
