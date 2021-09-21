@@ -44,7 +44,7 @@ public class Expense {
 
 	@ManyToOne
 	@JoinColumn(name = "project_fk", nullable = false)
-	// @OnDelete(action = OnDeleteAction.CASCADE)
+	@OnDelete(action = OnDeleteAction.CASCADE)
 	private Project project;
 
 	@NotBlank(message = "Name cannot be empty")
