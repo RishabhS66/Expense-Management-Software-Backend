@@ -84,6 +84,7 @@ public class Expense {
 
 	@OneToMany(fetch = FetchType.EAGER, cascade=CascadeType.REMOVE)
 	@JoinColumn(name = "expense_fk")
+	@OnDelete(action = OnDeleteAction.CASCADE)
 	@JsonIgnoreProperties("file")
 	private Set<Document> attachments;
 
