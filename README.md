@@ -11,6 +11,6 @@ This repository includes all the codes for the **backend portion** of [Expense M
 
 The Swagger UI based documentation for API calls can be found [here](https://expense-backend-rs.herokuapp.com/swagger-ui.html#/).
 
-## Note
-The **frontend code** for this project can be accessed at this [repo](https://github.com/RishabhS66/Expense-Management-Software-React-App).<br>
-Both the frontend and backend components of the project have been hosted at [Heroku](https://www.heroku.com/). 
+## Notes
+1. The **frontend code** for this project can be accessed at this [repo](https://github.com/RishabhS66/Expense-Management-Software-React-App).<br>
+2. Both the frontend and backend components of the project have been hosted at [Heroku](https://www.heroku.com/). 
