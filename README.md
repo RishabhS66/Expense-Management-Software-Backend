@@ -14,7 +14,12 @@ The Swagger UI based documentation for API calls can be found [here](https://exp
 ## Database
 The database has 6 tables : 
 <ul>
-  <li> <b>Employees</b> - To store details of employees registered with the organization.
+  <li> <b>Employees</b> - To store details of employees registered with the organization. An employee can have one of the following role :
+    <ul>
+      <li> Administrator
+      <li> Project Manager
+      <li> Software Development Engineer 
+    </ul>
   <li> <b>Clients</b> - To store details of clients working with the organization.
   <li> <b>Projects</b> - To store details of the projects. All projects are associated with a client, and have a team of different employees, with one of employees as the Project Manager.
   <li> <b>Expenses</b> - To store details of the expenses filed by an employee. 
