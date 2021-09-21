@@ -82,9 +82,8 @@ public class Expense {
 
 	private Double tax;
 
-	// @OneToMany(fetch = FetchType.EAGER, cascade=CascadeType.REMOVE)
-	@OneToMany(mappedBy = "expense_fk", orphanRemoval = true, cascade = CascadeType.ALL)
-	// @JoinColumn(name = "expense_fk")
+	@OneToMany(fetch = FetchType.EAGER, cascade=CascadeType.REMOVE)
+	@JoinColumn(name = "expense_fk")
 	@JsonIgnoreProperties("file")
 	private Set<Document> attachments;
 
